@@ -1,0 +1,265 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 1440px;
+    height: 4199px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+    box-shadow: 0px 0px 10px 10px gray;
+
+
+}
+
+header {
+    width: 1440px;
+    height: 65px;
+    background-color: rgb(255, 251, 251);
+
+}
+
+ul li {
+    display: inline-block;
+    padding: 12px;
+    margin-top: 10px;
+    position: relative;
+    left: 50px;
+    font-family: sans-serif;
+    color: rgb(150, 139, 139);
+
+}
+
+ul li:hover {
+    color: rgb(0, 0, 0);
+}
+
+.row {
+    width: 98px;
+    height: 13px;
+    background-image: url(../img/Frame\ \(1\).png);
+    position: relative;
+    top: -27px;
+    left: 671px;
+}
+
+ol li {
+    display: inline-block;
+    padding: 12px;
+    margin-top: -60px;
+    position: relative;
+    left: 900px;
+    top: -40px;
+    font-family: sans-serif;
+    color: rgb(145, 143, 143);
+
+}
+
+ol li:hover {
+    color: rgb(0, 0, 0);
+}
+
+.you {
+    width: 70px;
+    height: 23px;
+    flex-shrink: 0;
+    background-color: black;
+    border: 1px solid #000;
+    position: relative;
+    left: 1280px;
+    top: -75px;
+    color: wheat;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.you:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+
+}
+
+main {
+    width: 1440px;
+    height: 800px;
+    background-image: url(../img/Rectangle.png);
+}
+
+.me {
+    width: 740px;
+    height: 43px;
+    background-image: url(../img/THE\ FUTURE\ OF\ WELLNESS..png);
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+}
+
+.he {
+    width: 496px;
+    height: 40px;
+    background-image: url('../img/The\ perfect\ balance\ of\ science\,\ nature\ and\ technology.\ Prepare\ to\ look\ and\ feel\ your\ absolute\ best.\ \(1\).png');
+    margin: 0 auto;
+    position: relative;
+    top: 333px;
+}
+
+.she {
+    width: 215px;
+    height: 36px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    margin: 0 auto;
+    position: relative;
+    top: 393px;
+    left: -140px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 8px;
+    color: #FFF;
+}
+
+.she:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.we {
+    width: 215px;
+    height: 36px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    margin: 0 auto;
+    position: relative;
+    top: 358px;
+    left: 100px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 8px;
+    color: #FFF;
+}
+
+.we:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+section {
+    display: flex;
+    width: 1440px;
+    height: 500px;
+    gap: 40px;
+    flex-shrink: 0;
+    /* background-color: rgb(73, 80, 80); */
+    position: relative;
+    top: 16px;
+}
+
+.samuray {
+    width: 1440px;
+    height: 729px;
+    /* background-color: black; */
+    background-image: url('../img/Frame\ \(14\).png');
+    position: relative;
+    top: 30px;
+}
+
+.biz {
+    width: 1440px;
+    height: 729px;
+    background-color: black;
+    background-image: url('../img/Rectangle\ \(1\).png');
+    position: relative;
+    top: 50px;
+}
+
+.siz {
+    width: 542px;
+    height: 71px;
+    background-image: url('../img/Wellness\ innovation\ at\ its\ scientific\ best..png');
+    margin: 0 auto;
+    position: relative;
+    top: 300px;
+    left: 240px;
+}
+
+.u {
+    width: 215px;
+    height: 36px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    position: relative;
+    top: 393px;
+    left: -500px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 8px;
+    color: #FFF;
+}
+
+.u:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.ular {
+    width: 215px;
+    height: 36px;
+    flex-shrink: 0;
+    border: 1px solid #FFF;
+    position: relative;
+    top: 393px;
+    left: -520px;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 8px;
+    color: #FFF;
+}
+
+.ular:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.mafiya {
+    width: 1440px;
+    height: 430px;
+    background-image: url('../img/Frame\ \(15\).png');
+    position: relative;
+    top: 70px;
+}
+
+.uzb {
+    width: 1420px;
+    height: 322px;
+    flex-shrink: 0;
+    background-image: url('../img/Frame\ \(17\).png');
+    position: relative;
+    top: 104px;
+}
+
+footer {
+    width: 1440px;
+    height: 433px;
+    flex-shrink: 0;
+    background-color: black;
+    position: relative;
+    top: 192px;
+}
+
+.oldin {
+    width: 620px;
+    height: 241px;
+    padding: 0px, 25px, 0px, 25px;
+    background-image: url('../img/Frame\ \(19\).png');
+    margin: 0 auto;
+    position: relative;
+    top: 96px;
+    left: -220px;
+
+}
